@@ -1,0 +1,60 @@
+.menu-section {
+  background-color: var(--background-light);
+}
+
+.menu-card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.menu-card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-lg);
+}
+
+.menu-image-wrapper {
+  height: 250px;
+  overflow: hidden;
+}
+
+.menu-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.menu-card:hover .menu-image {
+  transform: scale(1.05);
+}
+
+.menu-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.menu-item-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--secondary-color);
+}
+
+.menu-item-desc {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+
+.menu-item-price {
+  font-weight: 600;
+  color: var(--primary-color);
+  font-size: 1.1rem;
+}

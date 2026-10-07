@@ -1,0 +1,79 @@
+.admin-container {
+  min-height: 100vh;
+  background-color: var(--background-light);
+}
+
+.admin-header {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 2rem;
+}
+
+.admin-main {
+  padding-bottom: 5rem;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+  background-color: #fff;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.admin-table th, .admin-table td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.admin-table th {
+  background-color: #f9f9f9;
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.admin-table tr:hover {
+  background-color: #fafafa;
+}
+
+.specs-cell {
+  max-width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-sm {
+  font-size: 0.85rem;
+}
+
+.text-gray {
+  color: #666;
+}
+
+.status-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.status-badge.pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-badge.completed {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.btn-sm {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+}
